@@ -8,6 +8,7 @@ const router = express();
 const PORT = process.env.PORT || 3000;
 
 //Middleware
+// router.use(express.json());
 router.use(express.json());
 router.use(cors())
 //MAIN ROUTES

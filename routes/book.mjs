@@ -16,7 +16,7 @@ router.get('/', async (req, res) => {
 //Get using query commands(Book ID) to retrieve the data from the database 
 router.get('/:id', async (req, res) => {
   let collection = await db.collection('book');
-  let query = { _id: new ObjectId(req.params.id) };
+  let query = {_id: new ObjectId(req.params.id)};
   let result = await collection.findOne(query);
 
   if (!result) res.status(404).send('Not found');

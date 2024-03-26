@@ -34,13 +34,8 @@ router.post('/', async (req, res) => {
     res.json(result).status(201);
 });
 //PATCH to update any field value , but you have to execute  (get)BOOK by ID
-router.patch('/:id', async (req, res) => {
-
+router.put('/:id', async (req, res) => {
   const updates = req.body
-
-
-
-
   if (ObjectId.isValid(req.params.id)) {
     db.collection('book')
       .updateOne({ _id: new ObjectId(req.params.id) }, { $set: updates })

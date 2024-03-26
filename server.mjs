@@ -24,7 +24,7 @@ router.use(cors())
     res.json(result);
   
   })
-router.use('/', bookRouter);
+router.use('/book', bookRouter);
   router.use((err, _req, res, next) => {
    res.status(500).send('Seems like we messed up somewhere...');
     });

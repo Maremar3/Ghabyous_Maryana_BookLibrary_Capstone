@@ -1,32 +1,26 @@
 # Ghabyous_Maryana_BookLibrary_Capstone<br>
 ## It is Chandler Kids Eleectronic Book Library<br>
-__I will Descripe My website MAp here__<br>
-* A- My home page we can open it from left side icon .<br>
-* B- ADD PRODUCT Tab , here you can add a new Book .<br>
-* C- Books Tab you can display all the books that we have, each Book have two button on to update this book(update the name of the book, the auther, the desription , the image and the price), and the other one to delete this book .<br>
-* D- ABOUT US Tab  is descripe our library<br>
-## Technologies used to deign this website<br>
-* A- CSS (Cascade Style Sheet)<br>
-* B- MongoDB<br>
-* C- JavaScript,Express<br>
-* D- React <br>
-__Approach taken__<br>
-* A- I used MongoDb (Backend)to connect MongoDb with react(Frontend)<br>
-* B-  installed  this library (material-ui)from the website <br>
-https://mui.com/material-ui/getting-started/installation/<br>
 
-1- To install it use this command in your terminal <br>
-npm install @mui/material @emotion/react @emotion/styled<br>
-
-2- To install it , open the website<br>
-https://mui.com/material-ui/<br>
-then search for icon , and chose icon material svg<br>
-3-Install this library in Visual Studio<br>
-npm install @mui/icons-material<br>
-4-To add book icon instead of text open this link <br>
-https://mui.com/material-ui/material-icons<br>
-5-Search for books to get the books icon then chose library book or any icon then copy the link and past it in Visual Studio headerfile, you will find the icon.<br>
 
 __You have to use your MongoDb Key__
-<br>
-
+<br>__My ROUTE on thunder client __<br>
+* To get or display all books<br>
+ Get:http://localhost:3000/book<br>
+* To get or display one book<br>
+Get: http://localhost:3000/book/bookid
+* To Post or send new collection<br>
+write your colection on thunder client body , JSON , like this example as an object<br>
+{<br>
+   "name": "Adventure",<br>
+  "auther": "Mark Sam",<br>
+  "description": "aventure in the zoo",<br>
+  "price": "450",<br>
+  "image": "https://shadycharacters.co.uk/wp/wp-content/uploads/2016/12/Book_IMG_1754-1-e1481474081467.jpg"<br>
+}<br>
+POST:http://localhost:3000/book<br>
+* To Delete one document<br>
+Delete:http://localhost:3000/book/bookid
+* To Update one document<br>
+Get:http://localhost:3000/book/bookid<br>
+make your update after you doing get request , then send update request<br>
+Update http://localhost:3000/book/bookid<br>

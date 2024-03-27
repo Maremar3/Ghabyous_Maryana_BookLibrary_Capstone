@@ -9,7 +9,6 @@ router.get('/', async (req, res) => {
 
   let collection = await db.collection('book');
   let result = (await collection.find({}).limit(10).toArray());
-
   res.json(result);
 })
 

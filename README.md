@@ -1,11 +1,12 @@
 # Ghabyous_Maryana_BookLibrary_Capstone<br>
-## It is Chandler Kids Eleectronic Book Library DataBase,server backend<br>
-__Technologies used are JavaScript and MongoDB__<br> 
+## It is Chandler Kids Eleectronic Book Library DataBase,server side backend<br>
+__Technologies used in this project__
+*JavaScript and MongoDB*<br> 
 __You have to use your MongoDb Key__<br>
 __This is my Backend DataBase , MongoDB__<br>
 __I have CRUD , Create, Read , Update, Delete document__
 *I have one collection Book, it has four route*
-<br>__My ROUTE on thunder client __<br>
+<br>__My ROUTE on thunder client__<br>
 * To get or display all books<br>
  Get:http://localhost:3000/book<br>
 * To get or display one book<br>

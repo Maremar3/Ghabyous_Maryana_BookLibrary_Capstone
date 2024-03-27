@@ -1,16 +1,31 @@
 # Ghabyous_Maryana_BookLibrary_Capstone<br>
 ## It is Chandler Kids Eleectronic Book Library DataBase,server side backend<br>
-__Technologies used in this project__
+__This is my Backend DataBase__
+*I used MongoDB*<br>
+__Technologies used in this project__<br>
 *JavaScript and MongoDB*<br> 
 __You have to use your MongoDb Key__<br>
-__This is my Backend DataBase , MongoDB__<br>
-__I have CRUD , Create, Read , Update, Delete document__
-*I have one collection Book, it has four route*
+__Install Thunder client extention__<br>
+__Installation__
+1-open a New folder<br>
+2-Touch server.js<br>
+3-npm init -y to create JSON<br>
+4-npm i express to install express<br>
+5-npm I nodemon so any changes you do in file it will restart the server automatic,you don't need to write npm start after every changing. To run your server you have to do nodemon server.js 
+server or server.js it the name of your file also you have to change it in depenence file.
+6-Touch .env<br>
+7-Touch .gitignore<br>
+8-npm i mongoDB<br>
+__Run your server__<br>
+1- npm start or<br>
+2- nodemon server.js <br>
+__I have CRUD , Create, Read , Update, Delete document__<br>
+*I have one collection Book, it has four route*<br>
 <br>__My ROUTE on thunder client__<br>
 * To get or display all books<br>
  Get:http://localhost:3000/book<br>
 * To get or display one book<br>
-Get: http://localhost:3000/book/bookid
+Get: http://localhost:3000/book/bookid<bt>
 * To Post or send new collection<br>
 write your colection on thunder client body , JSON , like this example as an object<br>
 {<br>

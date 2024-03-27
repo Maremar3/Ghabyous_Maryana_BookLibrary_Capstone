@@ -8,7 +8,7 @@ let collection = await db.collection("book");
 //In browser the URL will be http://localhost:3000/ because we didn't do .get('/book',async(req,res))
 router.get('/', async (req, res) => {
   let collection = await db.collection('book');
-  let result = (await collection.find({}).limit(10).toArray());
+  let result = (await collection.find({}).limit(20).toArray());
   res.json(result);
 })
 

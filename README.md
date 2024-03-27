@@ -1,8 +1,10 @@
 # Ghabyous_Maryana_BookLibrary_Capstone<br>
-## It is Chandler Kids Eleectronic Book Library<br>
-
-
-__You have to use your MongoDb Key__
+## It is Chandler Kids Eleectronic Book Library DataBase,server backend<br>
+__Technologies used are JavaScript and MongoDB__<br> 
+__You have to use your MongoDb Key__<br>
+__This is my Backend DataBase , MongoDB__<br>
+__I have CRUD , Create, Read , Update, Delete document__
+*I have one collection Book, it has four route*
 <br>__My ROUTE on thunder client __<br>
 * To get or display all books<br>
  Get:http://localhost:3000/book<br>
@@ -24,3 +26,10 @@ Delete:http://localhost:3000/book/bookid
 Get:http://localhost:3000/book/bookid<br>
 make your update after you doing get request , then send update request<br>
 Update http://localhost:3000/book/bookid<br>
+
+__Improvement in future__<br>
+*I will add user collection make login and signup user to register user*<br>
+__FIles and folders in this projects__
+* conn.mjs to connect to Dataabse<br>
+* Book.mjs in routes folder , it has CRUD four routes.<br>
+* Server.mjs has conncetion to my collection book ,db.collection('book'),and middleware to listen to that connection<br>
